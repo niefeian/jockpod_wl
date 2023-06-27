@@ -1,0 +1,1 @@
+{"account": "aleo1m0v8ft64z86ck3f369ss0uxczfgfmw0huy943udmraxaeutrespsg9afmd", "private_key": "APrivateKey1zkp3tiuzR78WHt2ca46AjtvYxu4KmCFTv54jB8ADXTEwZRJ", "view_key": "AViewKey1uHrNvzvBdEGTeggKxNE8N2EjXcSBoHLDu82fLNn4DM6b"}

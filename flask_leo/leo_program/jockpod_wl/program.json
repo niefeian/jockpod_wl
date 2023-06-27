@@ -1,0 +1,10 @@
+{
+    "program": "jockpod_wl.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp3dGjmfh6Qv4EBs6sKRQGhV8Wujd31MHk9HdWrpAmsCTe",
+        "address": "aleo1w64xh34fanxusgazgwrr6pz3h9rqzp3vwn4yy73qnnwtlx9hhsqqlm2nth"
+    },
+    "license": "MIT"
+}
