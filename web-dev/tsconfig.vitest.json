@@ -1,0 +1,22 @@
+
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowJs": true,  
+    "allowSyntheticDefaultImports": true,  
+ },
+  "include": ["element-plus/global","src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.js",],
+  "exclude": ["node_modules"],
+ 
+}
+
+

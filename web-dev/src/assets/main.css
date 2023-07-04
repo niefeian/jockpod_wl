@@ -1,0 +1,187 @@
+@import "./base.css";
+
+#app {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 0vw;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+
+
+#app {
+  /* height: 100vw; */
+  padding: 0 0;
+}
+
+
+
+/* 水平排列  */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 水平排列倒叙  */
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* 垂直排列 */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 垂直排列倒叙 */
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+/* 绝对居中 */
+.flex-center {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+/* 网页常用 */
+.inline-block {
+  /* inline行内元素并且可以设置宽高  默认是垂直元素 */
+  display: inline-block;
+}
+
+/* 内元素自动换行 */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.left-column {
+  float: left;
+  flex-direction: column;
+}
+
+.left-row {
+  float: left;
+  flex-direction: row;
+}
+
+.to-bg {
+  position: fixed;
+  z-index: -1;
+}
+
+/* 设置为背景 */
+.bg-image {
+  width: 750rpx;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/*横向导航*/
+.swiper-nav {
+  background-color: #fff;
+  white-space: nowrap;
+}
+
+.swiper-nav .item-nav {
+  position: relative;
+  padding: 30rpx 32rpx;
+  font-size: 30rpx;
+  cursor: pointer;
+  display: inline-block;
+  white-space: normal;
+}
+
+/* 悬浮 */
+.absolute-index {
+  position: absolute;
+  z-index: 1;
+}
+
+/* 悬浮不滚动 */
+.position-index {
+  position: fixed;
+  z-index: 110;
+}
+
+/* 吸底 */
+.flex-fixed {
+  display: flex;
+  position: fixed;
+  bottom: 20rpx;
+}
+
+.text_conten {
+  /*段落排版--首字缩进*/
+  text-indent: 2em;
+  /*段落排版--行间距（行高）*/
+  line-height: 1.5em;
+  /*段落排版--中文字间距*/
+  letter-spacing: 1px;
+  /*字母间距*/
+  word-spacing: 4px;
+  /*文字对齐 right 、left 、center  */
+  text-align: left;
+}
+
+.t1 {
+  font-size: 3.6vw;
+  font-weight: 500;
+  color: #ffffff;
+  padding-top: 4vw;
+}
+
+.title1 {
+  font-size: 4vw;
+  font-weight: 400;
+  color: #ffffff;
+}
+.title-c{
+  /* width: 100vw; */
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.dialog-footer-right{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.dialog-footer-box{
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+
+
+.table-box {
+  height: 70vh;
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",  // 这里需要配置
+    "paths": {
+      "@/*": ["./src/*"]  // 这里需要配置
+    }
+  },
+  // include也需要配置以下：
+  "include": ["element-plus/global","src/**/*.ts", "src/**/*.js", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
+
+
+
